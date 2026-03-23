@@ -1,7 +1,8 @@
-# FGCL4Rec: Frequency-guided Dual-view Graph Contrastive Learning for Sequential Recommendation
+# FGCL4Rec: Frequency-guided Dual-view Graph Contrastive Learning for Sequential Service Recommendation
 
-This repository contains the implementation of FGCL4Rec, a sequential recommendation model that leverages frequency-guided dual-view graph learning and contrastive learning to enhance recommendation performance.
+This repository contains the implementation of FGCL4Rec, a sequential service recommendation model that leverages frequency-guided dual-view graph learning and contrastive learning to enhance recommendation performance.
 
+Important Note: In this repository, the term `item` in code variables, file names and script parameters refers toservice in sequential service recommendation scenarios. We retain the original code naming conventions to ensure implementation stability and avoid modifying the underlying code logic.
 
 ## 1. Environment Setup
 
@@ -18,7 +19,7 @@ pip install -r requirements.txt
 ## 2. Dataset Preparation
 
 The dataset should be placed in the `data/` directory. We provide a preprocessed dataset `grocery.npy` containing:
-- User-item interaction sequences
+- User-item interaction sequences 
 - Total number of users
 - Total number of items
 
