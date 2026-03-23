@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## 2. Dataset Preparation
 
-### Dataset
+### Load Dataset
 Unzip the `data.zip`. The dataset should be placed in the `data/` directory. We provide a preprocessed dataset `grocery.npy` containing:
 - User-item interaction sequences 
 - Total number of users
