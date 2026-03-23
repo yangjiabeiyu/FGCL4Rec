@@ -2,7 +2,7 @@
 
 This repository contains the implementation of FGCL4Rec, a sequential service recommendation model that leverages frequency-guided dual-view graph learning and contrastive learning to enhance recommendation performance.
 
-Important Note: In this repository, the term `item` in code variables, file names and script parameters refers toservice in sequential service recommendation scenarios. We retain the original code naming conventions to ensure implementation stability and avoid modifying the underlying code logic.
+Important Note: In this repository, the term `item` in code variables, file names and script parameters refers to `service` in sequential service recommendation scenarios. We retain the original code naming conventions to ensure implementation stability and avoid modifying the underlying code logic.
 
 ## 1. Environment Setup
 
